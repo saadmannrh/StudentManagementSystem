@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="advTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adviserController">
+  <columns>
+    <TableColumn fx:id="nameColl" prefWidth="156.0" text="Name" />
+    <TableColumn fx:id="idColl" prefWidth="124.0" text="ID" />
+      <TableColumn fx:id="courseColl" prefWidth="165.0" text="Course" />
+  </columns>
+</TableView>
