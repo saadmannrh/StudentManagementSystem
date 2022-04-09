@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="allstuController">
+   <children>
+      <TableView fx:id="stuTable" prefHeight="512.0" prefWidth="459.0">
+        <columns>
+          <TableColumn fx:id="nameColl" prefWidth="137.0" text="Name" />
+          <TableColumn fx:id="idColl" minWidth="0.0" prefWidth="69.0" text="ID" />
+            <TableColumn fx:id="deptColl" prefWidth="76.0" text="Department" />
+            <TableColumn fx:id="addressColl" prefWidth="176.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
